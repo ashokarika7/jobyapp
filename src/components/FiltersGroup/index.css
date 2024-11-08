@@ -1,0 +1,108 @@
+.filters-container {
+  width: 30%;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .filters-container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+}
+
+.profile-name {
+  margin: 0px;
+  font-size: 22px;
+  margin-top: 5px;
+  color: #6366f1;
+  font-weight: 500;
+}
+
+.profile-bio {
+  font-size: 15px;
+  color: #475569;
+}
+
+.profile-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.profile-failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+}
+
+.profile-btn {
+  background-color: #4f46e5;
+  color: white;
+  width: 100px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-container {
+    width: 90%;
+  }
+}
+
+.hr-el {
+  border: solid 1px #64748b;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.employment-type-container {
+  width: 80%;
+  margin-bottom: 0px;
+}
+
+.employment-type-title {
+  color: white;
+  font-size: 20px;
+}
+
+.employment-input-el-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.emplyment-input-label-container {
+  margin-top: 10px;
+}
+
+.employment-type-label {
+  color: white;
+  margin-left: 5px;
+}

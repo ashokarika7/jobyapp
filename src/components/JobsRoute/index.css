@@ -1,0 +1,127 @@
+.jobs-container {
+  display: flex;
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .jobs-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.search-display-container {
+  background-color: black;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.search-container-large {
+  width: 400px;
+  height: 45px;
+  border: solid 1.5px #64748b;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.search-container-sm {
+  width: 400px;
+  height: 45px;
+  border: solid 1.5px #64748b;
+  border-radius: 5px;
+  padding: 0px;
+  width: 85%;
+  align-self: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .search-container-sm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search-container-large {
+    display: none;
+  }
+}
+
+.search-el {
+  width: 86%;
+  height: 100%;
+  background-color: transparent;
+
+  border: none;
+  border-width: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  color: grey;
+  outline: none;
+}
+
+.search-btn-el {
+  width: 14%;
+  height: 100%;
+  background-color: #272727;
+  border-width: 0px;
+}
+
+.search-icon {
+  color: white;
+}
+
+.jobs-list-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .jobs-list-loader {
+    height: 100vh;
+  }
+}
+
+.jobsList-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.jobs-list-failure-img {
+  width: 50%;
+}
+
+.jobs-list-failure-heading {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.jobs-list-failure-para {
+  color: white;
+}
+
+.jobs-list-failure-btn {
+  color: white;
+  background-color: #4f46e5;
+  height: 35px;
+  width: 100px;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 600px) {
+  .jobsList-failure-view-container {
+    margin-top: 60px;
+  }
+}
+
+.jobsList-ul-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}

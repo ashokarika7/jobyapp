@@ -1,0 +1,37 @@
+.not-found-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.not-found-img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.not-found-header {
+  color: white;
+  margin: 0px;
+}
+
+.not-found-para {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .not-found-img {
+    width: 50%;
+  }
+
+  .not-found-header {
+    font-size: 25px;
+  }
+
+  .not-found-para {
+    font-size: 11px;
+  }
+}

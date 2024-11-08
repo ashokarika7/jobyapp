@@ -1,0 +1,77 @@
+.login-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-container {
+  background-color: #272727;
+  padding: 20px;
+  width: 40%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  width: 40%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.label-el {
+  color: #f8fafc;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .label-el {
+    font-size: 10px;
+  }
+}
+
+.inp-el {
+  background-color: #272727;
+  border: solid 1px #64748b;
+  height: 35px;
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  color: grey;
+}
+
+.btn-el {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
+
+.login-btn-el {
+  background-color: #6366f1;
+  color: white;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+}
+
+.error-el {
+  color: #ff0b37;
+  align-self: flex-start;
+}
